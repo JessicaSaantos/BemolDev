@@ -5,6 +5,12 @@ body {
     font-family: "Montserrat" , sans-serif;
 }
 
+.flexRow{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 /* ========================= CABEÇALHO  ========================================== */
 
 header {
@@ -21,6 +27,26 @@ header {
 
 /* ========================= MENU  ========================================== */
 
-/* ========================= SEÇÕES  ========================================== */
 
+/* ========================= SEÇÕES  ========================================== */
+section {
+    display: flex;
+}
+.secaoInicial h1 {
+    color: #1D2F8A;
+    font-weight: 700;
+    font-size: 61px;
+    line-height: 67px;
+    width: 468px;
+    height: 200px;
+}
+
+.secaoInicial p {
+    color: #1D2F8A;
+    font-size: 16px;
+    line-height: 21px;
+    font-weight: 400;
+    width: 468px;
+    height: 66px;
+}
 /* ========================= RODAPÉ  ========================================== */
