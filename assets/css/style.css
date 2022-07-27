@@ -32,6 +32,11 @@ header {
 section {
     display: flex;
 }
+
+/*========= Seção Inicial ===========*/
+.secaoInicial {
+    margin-top: 30px;
+}
 .secaoInicial h1 {
     color: #1D2F8A;
     font-weight: 700;
@@ -39,6 +44,7 @@ section {
     line-height: 67px;
     width: 468px;
     height: 200px;
+    margin-bottom: 20px;
 }
 
 .secaoInicial p {
@@ -46,7 +52,65 @@ section {
     font-size: 16px;
     line-height: 21px;
     font-weight: 400;
-    width: 468px;
-    height: 66px;
+    width: 396px;
+    height: 60px;
+    text-align: left;
+    margin-bottom: 15px;
 }
+
+.secaoInicial a {
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    background-color: #FFC04A;
+    padding: 16px 24px;
+    color: #1D2F8A;
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 10px;
+
+    height: 58px;
+    width: 336px;
+    
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+
+/*========= Seção Benefícios ===========*/
+.secaoBeneficios {
+    max-width: 900px;
+    max-height: 700px;
+    margin: auto;
+
+}
+.secaoBeneficios h6 {
+    font-size: 20px;
+    font-weight: 700;
+    color: #1D2F8A;
+    margin-left: 45px;
+}
+.secaoBeneficios div img {
+    height: 570px;
+    width: 570px;
+}
+.secaoBeneficios ul {
+    flex-wrap: wrap;
+    max-width: 450px;
+    max-height: 655px;
+    justify-content: space-between;
+}
+.secaoBeneficios ul li {
+    width: 125px;
+    height: 200px;
+    margin: 10px auto;
+    text-align: center;
+}
+.secaoBeneficios ul li span {
+    font-weight: 700;
+    color: #1D2F8A;
+    font-size: 15px;
+}
+
 /* ========================= RODAPÉ  ========================================== */
