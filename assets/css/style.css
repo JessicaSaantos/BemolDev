@@ -113,4 +113,11 @@ section {
     font-size: 15px;
 }
 
+/*========= Seção Informativa ===========*/
+
+.secaoInfo {
+    background-color: #4864C0;
+    border-radius: 70px;
+}
+
 /* ========================= RODAPÉ  ========================================== */
