@@ -168,15 +168,24 @@ section {
 
 .secaoSimulador h3{
     height: 13rem;
-    width: 64rem;
+    width: 54rem;
     font-weight: 700;
     color: var(--primary-color);
     font-size: 5rem;
 }
-
+.secaoSimulador div:first-child {
+    width: 430px;
+}
+.boxInfo {
+    background: var(--primary-color);
+    width: 430px;
+    height: 300px;
+    margin: 12rem 0 0 6rem;
+}
 .box {
     display: grid;
     gap: 5rem;
+    width: 28rem;
 }
 
 .boxValor , .boxTempo {
@@ -184,7 +193,27 @@ section {
     gap: 2rem;
 }
 
-.boxTempo {}
+.boxValor span {
+    font-weight: 400;
+    font-size: 14px;
+}
+.boxValor input {
+    outline: none;
+    border: none;
+    height: 3rem;
+    border-bottom: 2px solid var(--primary-color);
+    width: 34rem;
+}
+.boxTempo label , .boxValor label {
+    font-weight: 400;
+    font-size: 20px;
+}
+.boxTempo input {
+    height: 2px;
+    background: var(--primary-color);
+    -webkit-appearance: none;
+    width: 34rem;
+}
 
 
 /*========= Seção Principal ===========*/
