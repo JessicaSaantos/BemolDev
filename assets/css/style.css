@@ -212,7 +212,14 @@ footer{
     background-color: var(--second-color);
     height: 30rem;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
     border-radius: 45px 45px 0 0;
+}
+
+footer img:first-child {
+    width: 15rem;
+}
+footer img {
+    width: 40rem;
 }
