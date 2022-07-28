@@ -204,5 +204,15 @@ section {
     background-color: var(--third-color);
     border: 3px solid var(--primary-color);
 }
-
+.secaoQrcode {
+    display: none;
+}
 /* ========================= RODAPÉ  ========================================== */
+footer{
+    background-color: var(--second-color);
+    height: 30rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 45px 45px 0 0;
+}
