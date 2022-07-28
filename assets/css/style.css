@@ -4,7 +4,8 @@
 
     --primary-color: hsl(230, 65%, 33%);
     --second-color: hsl(226, 49%, 52%);
-}
+    --third-color: hsl(39, 100%, 65%);
+ }
 
 body {
     height: 100vh;
@@ -68,7 +69,7 @@ section {
     display: inline-block;
     text-align: center;
     text-decoration: none;
-    background-color: #FFC04A;
+    background-color: var(--third-color);
     padding: 1.6rem 2.4rem;
     color: var(--primary-color);
     font-weight: 700;
@@ -84,7 +85,7 @@ section {
 
 }
 .secaoInicial a:hover {
-    color: #FFC04A;
+    color: var(--third-color);
     background-color: var(--second-color);
 }
 
@@ -181,6 +182,27 @@ section {
     flex-direction: column;
     width: 15rem;
     height: 20rem;
+}
+.secaoPrincipal div a {
+    text-decoration: none;
+    border-radius: 10px;
+    color: var(--primary-color);
+    border: 3px solid var(--third-color);
+    font-weight: 700;
+    font-size: 1.8rem;
+    margin-top: 1.5rem;
+    cursor: pointer;
+
+    width: 24rem;
+    height: 5.2rem;
+    text-align: center;
+    padding: 1.2rem 0;
+
+}
+.secaoPrincipal div a:hover {
+    color: var(--primary-color);
+    background-color: var(--third-color);
+    border: 3px solid var(--primary-color);
 }
 
 /* ========================= RODAPÉ  ========================================== */
