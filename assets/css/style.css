@@ -83,6 +83,10 @@ section {
     cursor: pointer;
 
 }
+.secaoInicial a:hover {
+    color: #FFC04A;
+    background-color: var(--second-color);
+}
 
 /*========= Seção Benefícios ===========*/
 .secaoBeneficios {
@@ -113,9 +117,6 @@ section {
     margin: 1rem auto;
     text-align: center;
 }
-.secaoBeneficios ul li img {
-
-}
 .secaoBeneficios ul li span {
     font-weight: 700;
     color: var(--primary-color);
@@ -135,14 +136,51 @@ section {
 }
 .secaoInfo .lado-direito p{
     color: #ffff;
-    font-size: 1.4rem;
-    width: 30rem;
-    font-weight: 700;
+    font-size: 1.2rem;
+    font-weight: 400;
     line-height: 2.2rem;
     text-align: left;
 }
+.secaoInfo .lado-direito p span {
+    font-weight: 700;
+}
 .secaoInfo .lado-direito img {
     width: 50rem;
-    margin-top: 2rem;
+    margin-top: 4rem;
 }
+
+/*========= Seção Banner ===========*/
+
+.secaoBanner img {
+    margin: 3rem auto;
+    width: 74rem;
+}
+
+/*========= Seção Simulador ===========*/
+
+.secaoSimulador {
+    margin: 5rem auto;
+    padding: 0 5rem;
+    max-width: 120rem;
+    flex-direction: column;
+}
+
+
+/*========= Seção Principal ===========*/
+
+.secaoPrincipal h3 {
+    color: var(--primary-color);
+    font-weight: 700;
+    font-size: 3.5rem;
+    line-height: 5rem;
+    text-align: left;
+    width: 50rem;
+}
+
+.secaoPrincipal div {
+    flex-direction: column;
+    width: 15rem;
+    height: 20rem;
+}
+
 /* ========================= RODAPÉ  ========================================== */
