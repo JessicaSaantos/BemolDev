@@ -198,7 +198,7 @@ section {
     border: none;
     height: 3rem;
     border-bottom: 2px solid var(--primary-color);
-    width: 34rem;
+    width: 30rem;
 }
 .boxTempo label , .boxValor label {
     font-weight: 400;
@@ -208,7 +208,7 @@ section {
     height: 2px;
     background: var(--primary-color);
     -webkit-appearance: none;
-    width: 34rem;
+    width: 30rem;
 }
 
 /*========= Seção Simulador Parte 2 ===========*/
