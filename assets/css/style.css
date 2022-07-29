@@ -176,7 +176,7 @@ section {
     width: 390px;
 }
 
-/*========= Seção Simulador BOX 1 ===========*/
+/*========= Seção Simulador Parte 1 ===========*/
 
 .box {
     display: grid;
@@ -211,33 +211,29 @@ section {
     width: 34rem;
 }
 
-/*========= Seção Simulador BOX 2 ===========*/
+/*========= Seção Simulador Parte 2 ===========*/
 
 .boxInfo {
     background: var(--second-color);
     width: 430px;
     height: 300px;
-    margin: 12rem 0 0 6rem;
+    margin: 10rem 0 0 6rem;
     display: flex;
     justify-content: center;
     flex-direction: column;
+    border-radius: 12px;
 }
-.secaoSimulador .boxInfo .cardInfo1 {
+
+.secaoSimulador .boxInfo .cardInfo1 , .cardInfo2 {
     margin: 0 auto;
     width: 28rem;
-    border-bottom: 2px solid #ffff;
 }
-.cardInfo1 div {
-    margin-bottom: 30px;
-}
-.cardInfo1 div img {
-    margin-right: 14rem;
-}
-.cardInfo1 div span {
+.cardInfo1 div span , .cardInfo2 div span {
     font-weight: 700;
     font-size: 48px;
+    color: white;
 }
-.cardInfo1 span {
+.cardInfo1 span , .cardInfo2 span {
     margin-bottom: 8px;
     display: inline-block;
     font-weight: 400;
@@ -245,7 +241,22 @@ section {
     color: white;
 }
 
+.cardInfo1 {
+    border-bottom: 2px solid #ffff;
+}
+.cardInfo1 div {
+    margin-bottom: 20px;
+}
+.cardInfo1 div img  {
+    margin-right: 14rem;
+}
 
+.cardInfo2 div img {
+    margin-right: 13.5rem;
+}
+.cardInfo2 {
+    margin-top: 12px;
+}
 
 /*========= Seção Principal ===========*/
 
