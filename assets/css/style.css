@@ -161,7 +161,6 @@ section {
 
 .secaoSimulador {
     margin: 5rem auto;
-    padding: 0 5rem;
     max-width: 120rem;
     height: 30rem;
 }
@@ -174,14 +173,11 @@ section {
     font-size: 5rem;
 }
 .secaoSimulador div:first-child {
-    width: 430px;
+    width: 390px;
 }
-.boxInfo {
-    background: var(--primary-color);
-    width: 430px;
-    height: 300px;
-    margin: 12rem 0 0 6rem;
-}
+
+/*========= Seção Simulador BOX 1 ===========*/
+
 .box {
     display: grid;
     gap: 5rem;
@@ -214,6 +210,41 @@ section {
     -webkit-appearance: none;
     width: 34rem;
 }
+
+/*========= Seção Simulador BOX 2 ===========*/
+
+.boxInfo {
+    background: var(--second-color);
+    width: 430px;
+    height: 300px;
+    margin: 12rem 0 0 6rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.secaoSimulador .boxInfo .cardInfo1 {
+    margin: 0 auto;
+    width: 28rem;
+    border-bottom: 2px solid #ffff;
+}
+.cardInfo1 div {
+    margin-bottom: 30px;
+}
+.cardInfo1 div img {
+    margin-right: 14rem;
+}
+.cardInfo1 div span {
+    font-weight: 700;
+    font-size: 48px;
+}
+.cardInfo1 span {
+    margin-bottom: 8px;
+    display: inline-block;
+    font-weight: 400;
+    font-size: 13px;
+    color: white;
+}
+
 
 
 /*========= Seção Principal ===========*/
