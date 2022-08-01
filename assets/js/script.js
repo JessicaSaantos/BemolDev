@@ -14,5 +14,7 @@ inputTempo.addEventListener("change" , mostrarTempo)
 
 // Funcionalidade que calcula os pontos
 function calcularPontos (){
-    
+    const inputValor = document.getElementById("valorInput").value  
+    const pontosDia = document.getElementById("pontosDiarios")
+    const pontosMeses = document.getElementById("pontosMensais") 
 }
