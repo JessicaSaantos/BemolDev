@@ -13,6 +13,7 @@ function mostrarTempo (){
 
 inputTempo.addEventListener("change" , mostrarTempo)
 
+
 // Funcionalidade que calcula os pontos
 function calcularPontos (){
 
@@ -21,6 +22,7 @@ function calcularPontos (){
     const pontosMes = document.getElementById("pontosMensais") 
 
     const meses = inputTempo.value
+    
 
     if (meses == 0){
         pontosMes.innerText = 0
