@@ -208,7 +208,7 @@ section {
 .boxTempo .simular:hover {
     background: var(--third-color);
 }
-.boxTempo label , .boxValor label {
+.boxTempo label , .boxValor label, .boxTempo span {
     font-weight: 400;
     font-size: 20px;
 }
