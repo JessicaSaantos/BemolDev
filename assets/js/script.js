@@ -22,31 +22,26 @@ function calcularPontos (){
     const pontosMes = document.getElementById("pontosMensais") 
 
     const meses = inputTempo.value
+    let resultado = inputValor / 40
     
 
-    if (meses == 0){
-        pontosMes.innerText = 0
-
-        if (inputValor < 40 ) {
-            pontosDia.innerText = 0
-        } else {
-            let resultado = inputValor / 40
-            pontosDia.innerText = resultado
-        }
+    if (inputValor < 40){
+        pontosDia.innerText = 0
+    } 
+    else if (inputValor >= 40 && meses == 0) {
+        pontosDia.innerText = resultado      
     } 
     else {
-        if (inputValor < 40 ) {
-            pontosDia.innerText = 0
-            pontosMes.innerText = 0
-        } else {
-            let resultado = inputValor / 40
-            pontosDia.innerText = resultado
+        pontosDia.innerText = resultado 
 
-            let totalMensal = resultado * 30 
-            pontosAcumulados = pontosAcumulados + totalMensal
-            pontosMes.innerText = pontosAcumulados
-        }
+        let totalMensal = resultado * (meses * 30)
+        pontosAcumulados = pontosAcumulados + totalMensal
+        pontosMes.innerText = pontosAcumulados
     }
+    
+    
+    pontosAcumulados = 0 
+    
 }
 
 button.addEventListener("click" , calcularPontos)

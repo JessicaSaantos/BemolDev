@@ -14,7 +14,7 @@ body {
 
 .flexRow{
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     flex-wrap: wrap;
 }
@@ -99,7 +99,7 @@ header {
 }
 .secaoBeneficios ul {
     flex-wrap: wrap;
-    max-width: 22rem;
+    max-width: 20rem;
     justify-content: space-around;
 }
 .secaoBeneficios ul li {
@@ -107,6 +107,9 @@ header {
     height: 16rem;
     margin: 1rem auto;
     text-align: center;
+}
+.secaoBeneficios ul li img {
+    width: 10rem;
 }
 .secaoBeneficios ul li span {
     font-weight: 700;
@@ -136,13 +139,9 @@ header {
 .secaoInfo .lado-direito p span {
     font-weight: 700;
 }
-
-/*========= Seção Banner ===========*/
-
-.secaoBanner img {
-    margin: 3rem auto;
-    width: 74rem;
-    display: none;
+.secaoInfo .lado-direito img {
+    width: 20rem;
+    margin: 2.5rem;
 }
 
 /*========= Seção Simulador ===========*/
@@ -212,7 +211,7 @@ header {
 
 .boxInfo {
     background: var(--second-color);
-    width: 30rem;
+    width: 26rem;
     padding: 4rem 0;
     border-radius: 12px;
 }
@@ -302,5 +301,5 @@ footer img:first-child {
     width: 6rem;
 }
 footer img {
-    width: 16rem;
+    width: 18rem;
 }
