@@ -16,6 +16,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 /* ========================= CABEÇALHO  ========================================== */
@@ -25,18 +26,13 @@ header {
     max-height: 12rem;
 }
 .logoBemol {
-    max-width: 14rem;
+    max-width: 18rem;
     max-height: 15rem;
-    margin: 3rem 0 4rem 6rem;
-}
-section {
-    display: flex;
+    margin: 3rem 0 4rem 2rem;
 }
 /* ========================= SEÇÕES  ========================================== */
 /*========= Seção Inicial ===========*/
 .secaoInicial {
-    display: flex;
-    flex-wrap: wrap;
     margin: 1.5rem auto;
 }
 .secaoInicial h1 {
@@ -73,7 +69,6 @@ section {
     height: 5rem;
     width: 18rem;
 
-
     border: none;
     border-radius: 1rem;
     cursor: pointer;
@@ -88,29 +83,27 @@ section {
 }
 /*========= Seção Benefícios ===========*/
 .secaoBeneficios {
-    max-width: 90rem;
-    max-height: 70rem;
-    margin: auto;
+    margin: 0 auto;
 
 }
 .secaoBeneficios h6 {
-    font-size: 2rem;
+    width: 26rem;
+    font-size: 1.4rem;
     font-weight: 700;
     color: var(--primary-color);
-    margin-left: 4.5rem;
+    margin-left: 1rem;
 }
 .secaoBeneficios div img {
-    height: 50rem;
-    width: 50rem;
+    height: 28rem;
+    width: 28rem;
 }
 .secaoBeneficios ul {
     flex-wrap: wrap;
-    max-width: 45rem;
-    max-height: 65.5rem;
-    justify-content: space-between;
+    max-width: 22rem;
+    justify-content: space-around;
 }
 .secaoBeneficios ul li {
-    width: 12rem;
+    width: 10rem;
     height: 16rem;
     margin: 1rem auto;
     text-align: center;
@@ -118,33 +111,30 @@ section {
 .secaoBeneficios ul li span {
     font-weight: 700;
     color: var(--primary-color);
-    font-size: 1.5rem;
+    font-size: 1.2rem;
 }
 
 /*========= Seção Informativa ===========*/
 
 .secaoInfo {
     background-color: var(--second-color);
-    border-radius: 7rem;
+    border-radius: 5rem;
     margin: auto;
 }
 .secaoInfo .lado-esquerdo img {
     width: 25rem;
-    padding: 3rem;
+    padding: 2rem;
 }
 .secaoInfo .lado-direito p{
     color: #ffff;
     font-size: 1.2rem;
     font-weight: 400;
     line-height: 2.2rem;
-    text-align: left;
+    text-align: center;
+    width: 26rem;
 }
 .secaoInfo .lado-direito p span {
     font-weight: 700;
-}
-.secaoInfo .lado-direito img {
-    width: 50rem;
-    margin-top: 4rem;
 }
 
 /*========= Seção Banner ===========*/
@@ -152,25 +142,21 @@ section {
 .secaoBanner img {
     margin: 3rem auto;
     width: 74rem;
+    display: none;
 }
 
 /*========= Seção Simulador ===========*/
 
 .secaoSimulador {
-    margin: 5rem auto;
-    max-width: 120rem;
-    height: 30rem;
+    margin: 3rem auto;
 }
 
 .secaoSimulador h3{
-    height: 13rem;
-    width: 54rem;
+    height: 14rem;
+    width: 22rem;
     font-weight: 700;
     color: var(--primary-color);
-    font-size: 5rem;
-}
-.secaoSimulador div:first-child {
-    width: 390px;
+    font-size: 4rem;
 }
 
 /*========= Seção Simulador Parte 1 ===========*/
@@ -178,7 +164,8 @@ section {
 .box {
     display: grid;
     gap: 5rem;
-    width: 28rem;
+    width: 12rem;
+    margin-bottom: 4rem;
 }
 
 .boxValor , .boxTempo {
@@ -195,7 +182,7 @@ section {
     border: none;
     height: 3rem;
     border-bottom: 2px solid var(--primary-color);
-    width: 30rem;
+    width: 20rem;
 }
 .boxTempo .simular {
     width: 200px;
@@ -210,7 +197,7 @@ section {
 .boxTempo .simular:hover {
     background: var(--third-color);
 }
-.boxTempo label , .boxValor label, .boxTempo span {
+.boxValor span, .boxTempo span {
     font-weight: 400;
     font-size: 20px;
 }
@@ -218,25 +205,21 @@ section {
     height: 2px;
     background: var(--primary-color);
     -webkit-appearance: none;
-    width: 30rem;
+    width: 20rem;
 }
 
 /*========= Seção Simulador Parte 2 ===========*/
 
 .boxInfo {
     background: var(--second-color);
-    width: 430px;
-    height: 300px;
-    margin: 10rem 0 0 6rem;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
+    width: 30rem;
+    padding: 4rem 0;
     border-radius: 12px;
 }
 
 .secaoSimulador .boxInfo .cardInfo1 , .cardInfo2 {
     margin: 0 auto;
-    width: 28rem;
+    width: 24rem;
 }
 .cardInfo1 div span , .cardInfo2 div span {
     font-weight: 700;
@@ -273,10 +256,10 @@ section {
 .secaoPrincipal h3 {
     color: var(--primary-color);
     font-weight: 700;
-    font-size: 3.5rem;
-    line-height: 5rem;
+    font-size: 2.5rem;
+    line-height: 4rem;
     text-align: left;
-    width: 50rem;
+    width: 20rem;
 }
 
 .secaoPrincipal div {
@@ -290,15 +273,12 @@ section {
     color: var(--primary-color);
     border: 3px solid var(--third-color);
     font-weight: 700;
-    font-size: 1.8rem;
-    margin-top: 1.5rem;
     cursor: pointer;
 
-    width: 24rem;
-    height: 5.2rem;
     text-align: center;
-    padding: 1.2rem 0;
-
+    padding: 1rem;
+    margin-top: 1.5rem;
+    font-size: 1.8rem;
 }
 .secaoPrincipal div a:hover {
     color: var(--primary-color);
@@ -311,7 +291,7 @@ section {
 /* ========================= RODAPÉ  ========================================== */
 footer{
     background-color: var(--second-color);
-    height: 18rem;
+    height: 10rem;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -319,8 +299,8 @@ footer{
 }
 
 footer img:first-child {
-    width: 15rem;
+    width: 6rem;
 }
 footer img {
-    width: 40rem;
+    width: 16rem;
 }
