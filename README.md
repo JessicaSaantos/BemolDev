@@ -6,6 +6,8 @@ Landing Page Bemol, página de destino com objetivo de levar o usuário a uma a�
 Com projeto Bemol foi possível exercitar o uso do display flex e trabalhar com as possibilidades de comportamento que é proporcionado através do flex, principalmente para implementar as técnicas de Mobile First.
 ## Tecnologias Utilizadas:
 
+![GitHub language count](https://img.shields.io/github/languages/count/JessicaSaantos/BemolDev)
+
 Marcação | Estilização | Programção
 ---|---|---
 Html | Css | JavaScript
