@@ -27,3 +27,6 @@ Html | Css | JavaScript
         - script.js
 
 ## Demonstração:
+
+![Animação](https://user-images.githubusercontent.com/98659450/183546198-fe52739f-55c2-4d17-9c4f-fe795603d191.gif)
+
