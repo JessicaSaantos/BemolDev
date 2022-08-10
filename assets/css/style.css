@@ -18,6 +18,9 @@ body {
     align-items: center;
     flex-wrap: wrap;
 }
+.esconder {
+    display: none;
+}
 
 /* ========================= CABEÇALHO  ========================================== */
 
@@ -284,9 +287,19 @@ header {
     background-color: var(--third-color);
     border: 3px solid var(--primary-color);
 }
-.secaoQrcode {
-    display: none;
+.containerQr {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
+.secaoQrcode {
+    background: var(--second-color);
+    position: fixed;
+    top: 0;
+    left: 50%;
+    height: 100%;
+}
+
 /* ========================= RODAPÉ  ========================================== */
 footer{
     background-color: var(--second-color);
