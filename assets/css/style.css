@@ -292,13 +292,13 @@ header {
     background: var(--second-color);
     position: fixed;
     top: 0;
-    left: 50%;
+    left: 55%;
     height: 100%;
     border-radius: 60px 0 0 60px;
 }
 
 .containerQr {
-    padding: 45px;
+    padding: 35px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -316,7 +316,7 @@ header {
     color: white;
     font-size: 14px;
     font-weight: 500;
-    margin-bottom: 35px;
+    margin-bottom: 28px;
 }
 .containerQr .qrImg {
     background: white;
