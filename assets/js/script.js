@@ -46,11 +46,18 @@ function calcularPontos (){
 
 button.addEventListener("click" , calcularPontos)
 
-//Funcionalidade mostrar seção QR CODE
+//Funcionalidade de abrir e fechar seção QR CODE
 const btnQr = document.getElementById("abrirConta")
 btnQr.addEventListener('click' , abrirQr)
 const secaoQr = document.querySelector(".secaoQrcode")
 
 function abrirQr (){
     secaoQr.classList.add('mostrar')
+
+    const main = document.querySelector("main")
+    main.addEventListener("dblclick" , fecharQr)
+}
+
+function fecharQr (){
+    secaoQr.classList.remove('mostrar')
 }
