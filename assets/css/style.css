@@ -18,9 +18,6 @@ body {
     align-items: center;
     flex-wrap: wrap;
 }
-.esconder {
-    display: none;
-}
 
 /* ========================= CABEÇALHO  ========================================== */
 
@@ -264,12 +261,12 @@ header {
     width: 20rem;
 }
 
-.secaoPrincipal div {
+.secaoPrincipal .flexRow {
     flex-direction: column;
     width: 15rem;
     height: 20rem;
 }
-.secaoPrincipal div a {
+.secaoPrincipal .flexRow .btn {
     text-decoration: none;
     border-radius: 10px;
     color: var(--primary-color);
@@ -282,19 +279,29 @@ header {
     margin-top: 1.5rem;
     font-size: 1.8rem;
 }
-.secaoPrincipal div a:hover {
+.secaoPrincipal .flexRow a:hover , 
+.secaoPrincipal .flexRow div:hover{
     color: var(--primary-color);
     background-color: var(--third-color);
     border: 3px solid var(--primary-color);
 }
 /*========= Seção QrCode ===========*/
+.secaoQrcode.mostrar {
+    display: flex;
+}
 .secaoQrcode {
-    background: var(--second-color);
+    display: none;
     position: fixed;
     top: 0;
     left: 55%;
     height: 100%;
     border-radius: 60px 0 0 60px;
+    
+    background: var(--second-color);
+    box-shadow: 1px 1px 10px 2px midnightblue;
+
+    /* right: -10rem;
+    transition: 0.5s; */
 }
 
 .containerQr {
@@ -307,7 +314,7 @@ header {
 .containerQr h3 {
     color: white;
     font-weight: 700;
-    font-size: 35px;
+    font-size: 30px;
     line-height: 42px;
     margin-bottom: 15px;
 }
@@ -325,8 +332,8 @@ header {
     border-radius: 20px;
     margin-bottom: 70px;
 }
-.containerQr .qrImg img {
-    width: 250px;
+.containerQr .qrImg img , .containerQr img {
+    width: 230px;
 }
 
 /* ========================= RODAPÉ  ========================================== */
