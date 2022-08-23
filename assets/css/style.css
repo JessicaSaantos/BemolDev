@@ -288,6 +288,9 @@ header {
 /*========= Seção QrCode ===========*/
 .secaoQrcode.mostrar {
     display: flex;
+    /* transition: all .5s;
+    transition-delay: .4s; */
+
 }
 .secaoQrcode {
     display: none;
@@ -299,6 +302,8 @@ header {
     
     background: var(--second-color);
     box-shadow: 1px 1px 10px 2px midnightblue;
+
+    
 }
 
 .containerQr {
